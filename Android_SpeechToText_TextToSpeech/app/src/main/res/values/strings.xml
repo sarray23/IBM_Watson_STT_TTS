@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Real Time Transcription - Watson</string>
+    <string name="transcription_header">English Transcription</string>
+    <string name="description">Select a target language and start speaking!</string>
+    <string name="spinner_header">Target Language</string>
+    <string name="mic">Press this button to enable/disable microphone.</string>
+    <string-array name="languages">
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+        <item>French</item>
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/spinner_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:background="#DDDDDD"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/targetLanguage"
+        android:entries="@array/languages" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/transcription_header"
+            android:layout_width="match_parent"
+            android:background="#DDDDDD"
+            android:layout_height="50dp"
+            android:id="@+id/textView3"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:text="@string/description"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/transcription"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/micButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:src="@android:drawable/ic_btn_speak_now"
+                android:background="@drawable/round_button"
+                android:tint="#FFFFFF"
+                android:contentDescription="@string/mic"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
